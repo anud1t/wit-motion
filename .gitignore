@@ -1,0 +1,118 @@
+# OS-generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.*
+*.local
+
+# Logs and temp
+logs/
+*.log
+*.tmp
+*.temp
+*.cache
+cache/
+
+# Build outputs (generic)
+build/
+build-*/
+cmake-build-*/
+dist/
+out/
+bin/
+lib/
+debug/
+release/
+
+# C/C++ artifacts
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+core
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Makefile
+Makefile.*
+*.cmake
+
+# Ninja
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Qt / Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*
+ui_*
+qrc_*
+*.qmlc
+*.jsc
+
+# Compilers / tooling
+*.dSYM/
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+
+# clang / compile commands (generated)
+compile_commands.json
+.clangd/
+
+# Package managers / deps caches
+.vcpkg-*
+vcpkg_installed/
+.conan/
+conanbuild*/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.iml
+*.user
+*.userprefs
+*.sublime-*
+.vs/
+
+# Python virtual envs (if present)
+.venv/
+venv/
+
+# Misc
+*.pyc
+*.pyo
+*.orig
+*.rej
+
+# Jetson/NVIDIA caches (safety)
+.nv/
